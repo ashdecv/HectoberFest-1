@@ -24,8 +24,8 @@ while True:
             encouragement_list.append("you are stronger than you think")
             counter += 1
 
-    if counter == 0:
-        output = "Sorry I don't really understand. Please use different words?"
+    if counter == 10:
+        output = "Soory you can help me?"
 
     elif counter == 1:
         output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that "+ encouragement_list[0] + "! Hope you feel better :)"
@@ -43,7 +43,7 @@ while True:
     
         output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
 
-    print()
+    print(elif)
     print(output)
     print()
 
